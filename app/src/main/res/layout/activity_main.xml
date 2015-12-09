@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.portfolioapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_bottom_margin"
+        android:text="@string/my_nanodegree_apps"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_spotify"
+        android:layout_width="@dimen/button1_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@color/colorButton1"
+        android:text="@string/spotify_streamer"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_scores"
+        android:layout_width="@dimen/button1_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@color/colorButton1"
+        android:text="@string/scores_app"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_library"
+        android:layout_width="@dimen/button1_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@color/colorButton1"
+        android:text="@string/library_app"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_build"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@color/colorButton1"
+        android:text="@string/build_it_bigger"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_xyz"
+        android:layout_width="@dimen/button1_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@color/colorButton1"
+        android:text="@string/xyz_reader"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_capstone"
+        android:layout_width="@dimen/button1_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorButton2"
+        android:text="@string/capstone_my_own_app"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
